@@ -104,6 +104,15 @@
                                     <rect key="frame" x="16" y="72" width="294" height="55"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qF-oW-Rmp">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="135" width="186" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="zWU-ZR-xzt"/>
                                 <exclude reference="Ba3-3n-Meg"/>
                                 <exclude reference="grq-eu-U4j"/>
+                                <exclude reference="0qF-oW-Rmp"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="zWU-ZR-xzt"/>
                                 <include reference="Ba3-3n-Meg"/>
                                 <include reference="grq-eu-U4j"/>
+                                <include reference="0qF-oW-Rmp"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="ig7-aJ-0K7" id="eeB-eP-H8W"/>
                         <outlet property="mailButton" destination="Ba3-3n-Meg" id="hte-PM-ly7"/>
                         <outlet property="messageLabel" destination="grq-eu-U4j" id="0nS-Qq-2ow"/>
+                        <outlet property="nameLabel" destination="0qF-oW-Rmp" id="AC7-HO-Qyt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
